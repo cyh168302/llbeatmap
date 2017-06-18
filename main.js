@@ -57,7 +57,7 @@ function drawnote(type,value,x,y)
 		case 3:
 		{	
 			cxt.fillStyle="#FF8080";
-			cxt.fillRect(658-x*70,y-value-8,16,value+8); 
+			cxt.fillRect(658-x*70,y-value-2,16,value+5); 
 			break;
 		}
 		default:break;
